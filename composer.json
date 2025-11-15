@@ -1,0 +1,19 @@
+{
+    "name": "rguseinov/psr4-mini-project",
+    "description": "Мини-пример PSR-4 автозагрузки",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ruslan Gusseinov",
+            "email": "r.gusseinov@mail.ru"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^3.9"
+    }
+}
